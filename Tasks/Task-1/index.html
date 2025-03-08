@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<h1 style="color: #EFA95E;">Student Registration Form</h1>
+<hr>
+<body>
+    <form action="">
+        <div style="margin-bottom: 10px;">
+            <label for="district">District</label>
+            <select name="district" id="district">
+                <option value="so" disabled selected>-Select One-</option>
+                <option value="dhaka">Dhaka</option>
+                <option value="tangail" >Tangail</option>
+                <option value="jamalpur" >Jamalpur</option>
+            </select>
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <label for="course" >Course</label>
+            <select name="course" id="course">
+                <option value="so" disabled selected>-Select One-</option>
+                <option value="bangla">Bangla</option>
+                <option value="english" >English</option>
+                <option value="math" >Math</option>
+            </select>
+        </div>
+       
+       
+        <div style="margin-bottom: 10px;">
+            <label for="sname">Student Name</label>
+            <input type="text" id="sname">
+        </div>
+        <div style="margin-bottom: 10px;">
+            <label for="fname">Father Name</label>
+            <input type="text" id="fname">
+        </div>
+        <div style="margin-bottom: 10px;">
+            <label for="mname">Mother Name</label>
+            <input type="text" id="mname">
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" id="Email">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone">
+        </div>
+        <div>
+            <label for="id">Identification Number</label>
+            <input type="text" id="id">
+        </div>
+        <div>
+            <label for="address">Village/House no/ Road No/Other Alternative</label>
+            <input type="text" id="address">
+        </div>
+        <div>
+            <label for="Gender">Gender</label>
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        
+        <div>
+            <label for="PH">Physically Handicapped</label>
+            <input type="radio" id="yes" name="PH" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="PH" value="No">
+            <label for="no">No</label>
+        </div>
+        
+        <div>
+            <label for="computer">Have Any Computer</label>
+            <input type="radio" id="yes" name="computer" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="computer" value="No">
+            <label for="no">No</label>
+        </div>
+
+        
+        
+        <div>
+            <label for="home_dis" >Home District</label>
+            <select name="" id="home_dis">
+                <option value="so" disabled selected>-Select One-</option>
+                <option value="manikgonj">Makingonj</option>
+                <option value="norshindi" >Norshindi</option>
+                <option value="gazipur" >Gazipur</option>
+            </select>
+        </div>
+       
+        <div>
+            <label for="upazila" >Upazilla</label>
+            <select name="" id="upazila">
+                <option value="so" disabled selected>-Select One-</option>
+                <option value="madhupur">Madhupur</option>
+                <option value="dhanbari" >Dhanbari</option>
+                <option value="ghatail" >Ghatail</option>
+            </select>
+        </div>
+       
+        <div>
+            <label for="edu-qua" >Educational Qualification</label>
+            <select name="edu-qua" id="edu-qua">
+                <option value="so" disabled selected>-Select One-</option>
+                <option value="ssc">SSC</option>
+                <option value="hsc" >HSC</option>
+                <option value="bsc" >BSC</option>
+            </select>
+        </div>
+
+        <div style="margin-top: 10px;">
+            <label for="photo">Photograph</label>
+            <br>
+            <input type="file" id="photo">
+            <p>(File Type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="signature">Signature</label>
+            <br>
+            <input type="file" id="signature">
+            <p>(File Type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Date of Birth</legend>
+                <input type="date" name="" id="">
+            </fieldset>
+        </div>
+
+        <input type="submit" value="Submit Data">
+       
+    </form>
+</body>
+</html>
